@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    overflow-x: hidden;
+}
+.logo{
+    color: black;
+    -webkit-text-fill-color: #E82574;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.5vmax;
+}
+.links{
+    color: white;
+}
+.glassmorphism{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.545);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
+.firstSec{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/ayodhya.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.firstInnerdiv{
+padding: 3%;
+width: 50%;
+}
+.About{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.AboutRight{
+   width: 50%;
+   height: 50%;
+    display: flex;align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+.AboutRight img{
+    width: 65%;
+}
+.AboutLeft{
+    width: 50%;
+    height: 50%;
+    padding: 3%;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.16);
+border-radius: 5%;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.218);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 0.29);
+}
+.roomCardImage{
+    height: 15rem;
+    background-image: url(/assets/small.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.roomCardImage2{
+    height: 15rem;
+    background-image: url(/assets/large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    border-radius: 10rem;
+    overflow: hidden;
+}
+.Services{
+    width: 100%;
+    height: 85vh;
+    margin: 2% 0% 2% 0%;
+    background-image: url(/assets/palash.webp);
+    background-size: cover;
+}
+.Gallery div img{
+    width: 22%;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+.contact-info{
+    background-color: #E82574;
+    border-radius: 20px;
+    padding: 5%;
+}
+.buttons{
+    background-color: #E82574; 
+    padding: 2px 50px 2px 50px;
+    color: white;
+     border: none;
+     border-radius: 5px;
+}
+.buttons:hover{
+    background-color: #bd2f68;
+}
+
+@media screen and (max-width:760px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .rooms{
+        overflow-x: auto;
+    }
+    .firstInnerdiv{
+        width: 75%;
+    }
+    .About{
+        flex-direction: column;
+
+    }
+    .AboutLeft{
+        width: 100%;
+        background-image: url(/assets/out.jpg);
+        background-size: cover;
+        border-radius: 0%;
+    }
+    .AboutLeft p{
+        background-color: #c9b5bd83;
+    }
+    .AboutRight{
+        display: none;
+    }
+    .innerService{
+        width: 100%;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+.innerService{
+    padding: 4%;
+    color: white;
+}
+
+.copyright{
+    border-top: 5px solid #E82574;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(13, 11, 11);
+    display: flex;
+}
+.copyright h6{
+    color: white;
+}
+.copyright a,p{
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration: none;
+}
+.copyrightDiv{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    color: black;
+}
