@@ -65,13 +65,13 @@ border: 1px solid rgba(255, 255, 255, 0.29);
 }
 .roomCardImage{
     height: 15rem;
-    background-image: url(/assets/small.jpg);
+    background-image: url(assets/small.jpg);
     background-size: cover;
     background-position: center;
 }
 .roomCardImage2{
     height: 15rem;
-    background-image: url(/assets/large.jpg);
+    background-image: url(assets/large.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -83,7 +83,7 @@ border: 1px solid rgba(255, 255, 255, 0.29);
     width: 100%;
     height: 85vh;
     margin: 2% 0% 2% 0%;
-    background-image: url(/assets/palash.webp);
+    background-image: url(assets/palash.webp);
     background-size: cover;
 }
 .Gallery div img{
@@ -123,7 +123,7 @@ border: 1px solid rgba(255, 255, 255, 0.29);
     }
     .AboutLeft{
         width: 100%;
-        background-image: url(/assets/out.jpg);
+        background-image: url(assets/out.jpg);
         background-size: cover;
         border-radius: 0%;
     }
